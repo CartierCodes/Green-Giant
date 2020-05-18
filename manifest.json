@@ -2,5 +2,12 @@
     "manifest_version": 2,
     "name": "Green Giant",
     "version": "0.1",
-    "description": "Extension developed for use by Green Giant Inc"
+    "description": "Extension developed for use by Green Giant Inc",
+    "background": {
+        "persistent": true,
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "contextMenus"
+    ]
 }
