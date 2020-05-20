@@ -1,6 +1,6 @@
 {
     "name": "Green Giant",
-    "version": "0.1",
+    "version": "1.0",
     "description": "Extension developed for use by Green Giant Inc",
     "manifest_version": 2,
     "background": {
@@ -9,6 +9,6 @@
     },
     "permissions": [
         "contextMenus",
-        "tabs"
+        "activeTab"
     ]
 }
