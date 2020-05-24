@@ -9,6 +9,9 @@
     },
     "permissions": [
         "contextMenus",
-        "activeTab"
+        "activeTab",
+        "https://*.amazon.com/",
+        "https://*.walmart.com/",
+        "https://*.wayfair.com/"
     ]
 }

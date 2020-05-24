@@ -2,7 +2,7 @@ let contextMenus = {};
 
 contextMenus.webSearch = chrome.contextMenus.create(
         {"title": "Check Amazon for this page",
-        "contexts" : ["editable"] },
+        "contexts" : ["page"] },
         function () { if (chrome.runtime.lastError) console.error(chrome.runtime.lastError.message); }
     );
 
