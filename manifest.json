@@ -10,8 +10,7 @@
     "permissions": [
         "contextMenus",
         "activeTab",
-        "https://*.amazon.com/",
-        "https://*.walmart.com/",
-        "https://*.wayfair.com/"
+        "webRequest",
+        "webRequestBlocking"
     ]
 }

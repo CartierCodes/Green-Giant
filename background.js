@@ -24,3 +24,27 @@ function contextMenuHandler(info, tab){
         }
     }
 }
+
+// chrome.webRequest.onBeforeSendHeaders.addListener(
+//     function(info) {
+//         var headers = info.requestHeaders;
+//         headers.forEach(function(header, i) {
+//             if (header.name.toLocaleLowerCase() == 'user-agent') { 
+//                 header.value = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.3';
+//             }
+//             if (header.name.toLocaleLowerCase() === 'access-control-allow-origin') {
+//                 item.value = '*'
+//             }
+//         });  
+//         return {requestHeaders: headers};
+//     },
+//     {
+//         urls: [
+//             "http://stackoverflow.com/*",
+//             "http://127.0.0.1:6789/*",
+//             "https://www.amazon.com/*"
+//         ],
+//         types: ["xmlhttprequest"]
+//     },
+//     ["blocking", "requestHeaders"]
+// );
